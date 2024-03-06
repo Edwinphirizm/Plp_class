@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+
+    <!-- Documnet style -->
+    <Style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+     
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+      
+        .menu {
+            list-style-type: none;
+        }
+        .menu li {
+            margin-bottom: 5px;
+        }
+        #h1 {
+            padding-top: 100px;
+        }
+    </Style>
+    <!-- Style Ends-->
+
+</head>
+<body>
+    <header>
+        <h1 id="h1" style="text-align: center;">Welcome to Image Links Website</h1>
+      
+            <img src="https://unsplash.com/photos/gray-and-black-laptop-computer-on-surface-Im7lZjxeLhg" 
+            alt="technology" style="max-width:100%," target="_blank"></img>
+         <!--
+            <img src="C:\Users\Edwin Phiri\Documents\School\PLP\willbl_busanga.jpg" 
+            alt="technology" style="width:100%," height="200px;"  target="_blank""></img>
+         -->
+    </header>
+        
+
+    <!-- Display a grid of linked images related to nature -->
+    <section class="gallery">
+        <h2>Gallery</h2>
+        <div>
+            <img 
+            src="https://unsplash.com/photos/a-person-swimming-in-the-ocean-with-a-mountain-in-the-background-xQhP7RVgA3c" 
+            alt="a person swimming in the ocean with a mountain in the background" target="_blank">
+        </img>
+        </div>
+        <div>
+            <img 
+            src="https://unsplash.com/photos/green-trees-under-white-clouds-and-blue-sky-during-daytime-gnKICnDA5Hw" 
+            alt="green trees under white clouds and blue sky during daytime at the boarder of Zambia and Zimbabwe at Victoria Falls hook bridge">
+        </img>
+        </div>
+        <div>
+            <img 
+            src="https://drive.google.com/file/d/1wKRgd5ySN8g_RcV2sg82K8stu3qzchra/view?usp=sharing" 
+            alt="Lwambimba River in Liuwa National Park of Western Province of Zambia in Sishekanu of kalabo District">
+            <a href="https://www.africanparks.org/the-parks/liuwa-plain" target="_blank">Visit the Liuwa National part</a>
+        </img>
+        </div>
+        <div>
+            <img src="https://drive.google.com/file/d/1_v6-JlnBSjzAbRUstNfaxKZlxxvRESdo/view?usp=sharing" 
+                alt="Kafue National Park in Zambia">
+                <a href="https://journeysbydesign.com/destinations/zambia/kafue-national-park" target="_blank">
+                    Visit the Kafue National Park in Zambia
+                </a>
+            </img>
+        </div>
+    </section>
+
+   <!-- Display a grid of linked images related to food -->
+    <section class="menu">
+        <h2>Menu</h2>
+        <ul>
+            <li><img src="https://unsplash.com/photos/silver-fork-beside-tray-of-food-FrESnzTxZxQ" 
+                    alt="Served food in a Zambian restuarant in Lusaka">
+                </img>
+            </li>
+            <li><img src="https://unsplash.com/photos/pancakes-beside-grapes-in-plate--8GFJHNoqn4" 
+                    alt="Brunch Platter with Beef sausage, crumpets, Grapes and side Salad">
+                </img>
+            </li>
+        </ul>
+    </section>
+</body>
+</html>
