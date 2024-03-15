@@ -11,4 +11,19 @@ def calculate_discount(price, discount_percentage):
         # original price
         return price
 
-print(calculate_discount(2000, 10))
+
+
+#Promp the user to for original price and 
+#the discount percentage
+
+original_price = float(input("Enter original price of an item: "))
+discount_percentage = float(input("Enter the discount percentage: "))
+
+#Calculate final price
+final_price = calculate_discount(original_price, discount_percentage)
+
+#Print the final price or the original price
+if discount_percentage >= 20:
+    print(f"The final price after discount is: {final_price}")
+else:
+    print(f"No discount was applied. Original price is: {original_price}")
