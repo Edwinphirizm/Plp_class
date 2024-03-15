@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School registration form</title>
+    <style>
+        body{
+            background-color: #fff;
+        }
+
+    </style>
+
+
+
+</head>
+<body>
+    <!-- Collecting first and last name -->
+    <form action="form_logic.py" method="post" enctype="multipart/form-data"></form>
+    <label for="name">First name</label>
+    <input type="name" 
+    placeholder="First name" 
+    required
+    >
+    <!-- Middle name not required -->
+    <br>
+    <label for="name">Middle name</label>
+    <input type="name" 
+    placeholder="Not mandatory"
+    aria-required="false"
+    >
+
+    <br>
+    <label for="name">Last name</label>
+    <input type="name" 
+    placeholder="Last name"
+    required
+    >
+
+    <br>
+
+    <!-- Collecting gender -->
+    <label for="gender">Male</label>
+    <input type="radio"
+    required
+    >
+
+    <label for="gender">Female</label>
+    <input type="radio"
+    required
+    >
+
+    <br>
+    <!-- Enter your phone number -->
+    <label for="phone">Phone number</label>
+    <input type="tel"
+    required
+    placeholder="Enter your mobile phone number"
+    >
+
+    <br>
+    <!-- date of birth -->
+    <label for="date">Date of birth</label>
+    <input type="date"
+    placeholder="Enyter your date of birth"
+    required
+    >
+
+    <!-- Program of choice -->
+    <label for="Program">Select your program of choice</label>
+    <input type="option">
+    <option value="Program of choice">Select</option>
+    <select name="" id=""></select>
+
+
+
+
+
+
+    
+</body>
+</html>
