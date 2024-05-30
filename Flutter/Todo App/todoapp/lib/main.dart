@@ -58,7 +58,7 @@ class MyHomePage extends StatelessWidget {
     if (appState.favorites.contains(pair)) {
       icon = Icons.favorite;
     } else {
-      icon = Icons.favorit_border;+
+      icon = Icons.favorit_border;
     }
 
     return Scaffold(
